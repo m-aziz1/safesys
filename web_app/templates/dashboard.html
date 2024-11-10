@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>SafeSys Dashboard</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="{{url_for('static', filename='css/style.css')}}"
+		/>
+	</head>
+	<body>
+		<div class="layout">
+			<!-- Sidebar -->
+			<nav class="sidebar">
+				<div class="sidebar-header">
+					<div class="logo">
+						<i class="fas fa-shield-alt"></i>
+						<span class="logo-text">SafeSys</span>
+					</div>
+					<button class="toggle-sidebar">
+						<i class="fas fa-bars"></i>
+					</button>
+				</div>
+				<div class="nav-links">
+					<a
+						href="#"
+						class="nav-link active"
+						data-section="lockers"
+						style="padding-right: 1rem"
+					>
+						<i class="fas fa-box"></i>
+						<span class="nav-text">Locker Information</span>
+					</a>
+					<a
+						href="#"
+						class="nav-link"
+						data-section="activity"
+						style="padding-right: 1rem"
+					>
+						<i class="fas fa-chart-line"></i>
+						<span class="nav-text">Activity</span>
+					</a>
+					<a
+						href="/"
+						class="nav-link"
+						data-section="logout"
+						style="padding-right: 1rem"
+					>
+						<i class="fas fa-sign-out-alt" style="padding-right: 1rem"></i>
+						<span class="nav-text">Logout</span>
+					</a>
+				</div>
+			</nav>
+
+			<!-- Main Content -->
+			<main class="main-content">
+				<!-- Mobile Header -->
+				<div class="mobile-header">
+					<button class="toggle-sidebar">
+						<i class="fas fa-bars"></i>
+					</button>
+					<span class="current-section">Locker Information</span>
+				</div>
+
+				<!-- Sections -->
+				<section id="lockers-section">
+					<h2>Locker Information</h2>
+					<div class="locker-grid"></div>
+				</section>
+
+				<section id="activity-section" class="hidden">
+					<h2>Activity</h2>
+					<div class="activity-list"></div>
+				</section>
+			</main>
+		</div>
+
+		<script src="{{url_for('static', filename='js/data.js')}}"></script>
+		<script src="{{url_for('static', filename='js/app.js')}}"></script>
+	</body>
+</html>
