@@ -187,6 +187,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     borderRadius: 8,
+    marginTop: 30,
   },
   rectangleText: {
     fontSize: 23,

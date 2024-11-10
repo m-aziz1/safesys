@@ -178,6 +178,7 @@ const Two = () => {
           placeholder="Name"
           value={name}
           onChangeText={setName}
+          placeholderTextColor="#fff"
         />
       )}
 
@@ -188,6 +189,7 @@ const Two = () => {
         autoCapitalize="none"
         value={email}
         onChangeText={setEmail}
+        placeholderTextColor="#fff"
       />
 
       <TextInput
@@ -196,6 +198,7 @@ const Two = () => {
         secureTextEntry
         value={password}
         onChangeText={setPassword}
+        placeholderTextColor="#fff"
       />
 
       {!isLogin && (
@@ -205,6 +208,7 @@ const Two = () => {
           secureTextEntry
           value={confirmPassword}
           onChangeText={setConfirmPassword}
+          placeholderTextColor="#fff"
         />
       )}
 
@@ -232,12 +236,12 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     padding: 20,
-    backgroundColor: "#f8f9fa",
   },
   title: {
     fontSize: 24,
     fontWeight: "bold",
     marginBottom: 20,
+    color: "white",
   },
   input: {
     width: "100%",
@@ -246,11 +250,12 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "#ddd",
     borderRadius: 8,
+    color: "#fff",
   },
   button: {
-    width: "100%",
+    width: "40%",
     padding: 15,
-    backgroundColor: "#007bff",
+    backgroundColor: "#5dcb97",
     borderRadius: 8,
     alignItems: "center",
     marginTop: 20,
@@ -260,7 +265,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   switchText: {
-    color: "#007bff",
+    color: "#fff",
     marginTop: 20,
   },
 });
