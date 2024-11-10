@@ -1,5 +1,5 @@
 # HackEd Beta Project - SafeSys
-**Team Members:** Suvir Duggal, Sahibjot Singh, Arnav Kumar, Jaskaran Singh, Ihsan Aziz
+**Team Members:** Suvir Duggal, Sahibjot Singh, Arnav Kumar, Jaskaran Singh, Mohd Ihsan Aziz
 
 ### Description
 SafeSys is a smart anti-theft locker system designed to provide students and admins with a more secure solution for storing valuables. Unlike traditional combination locks, SafeSys offers real-time alerts and monitoring, allowing users to stay informed about locker access. Built by Team Geeky Blinders, SafeSys integrates hardware and software to create a seamless and user-friendly experience.
