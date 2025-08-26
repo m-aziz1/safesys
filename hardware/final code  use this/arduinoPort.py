@@ -4,11 +4,11 @@ import time
 import ast
 
 # Serial port configuration
-serial_port = 'COM7'  # Change this to your Arduino's port (e.g., /dev/ttyUSB0 for Linux)
-baud_rate = 9600  # Match this with your Arduino baud rate
+serial_port = 'COM7'  # Arduino's port
+baud_rate = 9600  # Arduino baud rate
 
 # Flask server URL
-flask_server_url = 'https://geekyblinders.pythonanywhere.com/status'  # Replace with your Flask server's IP
+flask_server_url = 'https://geekyblinders.pythonanywhere.com/status'  # Flask server's IP
 
 def main():
     # Open serial port
@@ -22,8 +22,6 @@ def main():
                 line = ser.readline().decode('utf-8').rstrip()  # Read line and decode
                 line_list = ast.literal_eval(line)
                 print(f"Received from Arduino: {line_list}")  # Print the received line
-                #print(line_list)
-                #print(type(line_list))
 
                 # Check if the status has changed
                 if line != last_status:
