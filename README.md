@@ -1,4 +1,4 @@
-# SafeSys: An IoT-Enabled Anti-Theft Locker System
+# SafeSys: An IoT Anti-Theft Locker System
 
 **Winner - First Place, Hardware Category | HackED Beta 2024**
 
@@ -33,19 +33,19 @@ The system is architected into three primary components: the embedded hardware u
 | :--- | :--- |
 | **Hardware** | Arduino, breadboarded multiplexer, sensors |
 | **Firmware** | C++ (Arduino Framework) |
-| **Backend** | Firebase, Flask |
-| **Database** | SQLite |
-| **Mobile App** | React Native |
+| **Backend** | Firebase, Flask, SQLite |
+| **Frontend** | React Native, Tailwind CSS |
 | **Cloud & Hosting**| AWS, PythonAnywhere |
 
-## Image Gallery
+## Images
 
 <p align="center">
-  <img src="/assets/safesys-hardware.png" alt="Hardware Setup" width="48%" />
-  <img src="/assets/safesys-overall.png" alt="Overall Setup" width="48%" />
+  <img src="https://github.com/m-aziz1/safesys/blob/main/assets/safesys-hardware.jpg" alt="Hardware Setup" width="48%" />
+  <img src="https://github.com/m-aziz1/safesys/blob/main/assets/safesys-overall.jpg" alt="Overall Setup" width="48%" />
 </p>
+
 <p align="center">
-  <em>Left: The Arduino and MUX circuit prototype. Right: The overall setup.</em>
+  <em><strong>Left</strong>: The Arduino and MUX circuit prototype. <strong>Right</strong>: The overall setup.</em>
 </p>
 
 
