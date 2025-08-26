@@ -4,8 +4,6 @@ import os
 from datetime import datetime, timedelta
 import bcrypt
 
-# Secret key for JWT encoding/decoding
-JWT_SECRET = 'your_secret_key'
 JWT_ALGORITHM = 'HS256'
 JWT_EXP_DELTA_SECONDS = 3600 * 24 * 20  # Token validity of 30 Days
 
