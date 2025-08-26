@@ -41,8 +41,8 @@ The system is architected into three primary components: the embedded hardware u
 ## Image Gallery
 
 <p align="center">
-  <img src=".github/assets/safesys-hardware.png" alt="Hardware Setup" width="48%" />
-  <img src=".github/assets/safesys-overall.png" alt="Overall Setup" width="48%" />
+  <img src="/assets/safesys-hardware.png" alt="Hardware Setup" width="48%" />
+  <img src="/assets/safesys-overall.png" alt="Overall Setup" width="48%" />
 </p>
 <p align="center">
   <em>Left: The Arduino and MUX circuit prototype. Right: The overall setup.</em>
